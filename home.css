@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
+    text-decoration: none;
 }
 
 .heading__title1 {
     text-align: center;
     font-size: 50px;
     color: #0052b2;
+
+
 }
 
 body {
@@ -15,24 +18,40 @@ body {
     font-size: 13px;
     width: 100%;
     overflow-x: hidden;
+    background-color: #eeedee;
+    text-decoration: none;
 }
 
-.debug {
-    border: 1px solid red;
+.heading__title {
+    text-align: center;
+    font-size: 50px;
+    color: #0052b2;
+
 }
+
+.heading__desc {
+    text-align: center;
+    font-size: 20px;
+    color: #0052b2;
+}
+
+
 
 .icon-top {
     color: #0052b2;
+
 }
 
 .icon-top-select {
     color: #0052b2;
     font-size: 7px;
+
 }
 
 .header-top {
     color: #00234b;
     font-weight: 600;
+    background-color: #eeedee;
 }
 
 .header-top {
@@ -40,6 +59,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 50px;
+    background-color: #eeedee;
 }
 
 .group-item {
@@ -47,6 +67,7 @@ body {
     padding: 15px;
     gap: 0px 15px;
     justify-content: space-between;
+
 }
 
 .item {
@@ -56,6 +77,7 @@ body {
     gap: 0px 10px;
     margin-right: 10px;
     cursor: pointer;
+
 }
 
 .item:hover {
@@ -476,17 +498,20 @@ li {
 .header__content-cta {
     display: flex;
     align-items: center;
+    text-decoration: none;
 
 }
 
 .header__content-cta>a:first-child {
     margin-right: 5rem;
     background-color: #0052b2;
+    text-decoration: none;
 }
 
 .btn__play-video {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .btn__play-video>i {
@@ -499,11 +524,13 @@ li {
     background-color: #0052b2;
     color: white;
     margin-right: 10px;
+    text-decoration: none;
 }
 
 .btn__play-video>span {
-    color: var(--gray-dark);
+    color: blue;
     font-size: 1.4rem;
+    text-decoration: none;
 }
 
 .btn {
@@ -515,18 +542,20 @@ li {
     text-align: center;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    font-family: var(--primary-font);
+    font-family: ;
     font-size: 1.4rem;
     cursor: pointer;
 }
 
 .btn--primary {
-    background-color: var(--primary-color);
+
+    background-color: yellow;
 }
 
 .btn--rounded {
     border-radius: 5rem;
-    color: #0052b2;
+    color: red;
+    text-decoration: none;
 }
 
 .btn--icon i {
@@ -546,7 +575,7 @@ li {
     position: relative;
     padding-top: 5rem;
     padding-bottom: 1rem;
-   
+
 }
 
 @media screen and (max-width: 767px) {
@@ -607,9 +636,10 @@ li {
     width: 24.8%;
     position: relative;
 }
-.i{
+
+.i {
     background-color: #0052b2;
-    color:#f0f9fc;
+    color: #f0f9fc;
 }
 
 @media screen and (max-width: 1023px) {
@@ -630,7 +660,7 @@ li {
 }
 
 .about__item-content {
-    background-color:#0052b2;
+    background-color: #0052b2;
     position: absolute;
     top: 0;
     left: 0;
@@ -642,7 +672,7 @@ li {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.2s linear, visibility 0.2s linear;
@@ -659,11 +689,11 @@ li {
 }
 
 .btn--secondary {
-    background-color: var(--gray-dark);
+    background-color: yellow;
 }
 
 .popular {
-    background-color: #fff;
+    background-color: #eeedee;
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
@@ -700,11 +730,12 @@ li {
 }
 
 .popular__link .title {
-    font-family: var(--secondary-font);
+    font-family: 'Courier New', Courier, monospace;
     font-size: 2.2rem;
     margin-bottom: 3rem;
     margin-top: 5rem;
-    color: var(--gray-dark);
+    color: blue;
+    text-decoration: none;
 }
 
 .popular__link .desc {
@@ -729,38 +760,40 @@ li {
     height: 100vh;
     background-size: cover;
     background-position: center;
-    animation: changeBackground 10s infinite; /* Chuyển đổi hình nền mỗi 8 giây, lặp vô hạn */
-  }
-  
-  @keyframes changeBackground {
+    animation: changeBackground 10s infinite;
+    /* Chuyển đổi hình nền mỗi 8 giây, lặp vô hạn */
+}
+
+@keyframes changeBackground {
     0% {
-      background-image: url("https://vanchuyenchomeo.com/wp-content/uploads/2020/03/10.png");
+        background-image: url("https://vanchuyenchomeo.com/wp-content/uploads/2020/03/10.png");
     }
+
     25% {
-      background-image: url("https://vẽ.vn/wp-content/uploads/2020/04/1587617861_885_Lam-the-nao-de-ve-mot-con-soi-Chibi.png");
+        background-image: url("https://vẽ.vn/wp-content/uploads/2020/04/1587617861_885_Lam-the-nao-de-ve-mot-con-soi-Chibi.png");
     }
+
     50% {
-      background-image: url("https://png.pngtree.com/png-clipart/20230411/original/pngtree-vector-cartoon-cute-puppy-dog-png-image_9044050.png");
+        background-image: url("https://png.pngtree.com/png-clipart/20230411/original/pngtree-vector-cartoon-cute-puppy-dog-png-image_9044050.png");
     }
+
     75% {
-      background-image: url("https://static.wixstatic.com/media/9d8ed5_941f979ed8b849efbec34738f4d86b48~mv2.png/v1/fill/w_600,h_740,al_c,q_90,enc_auto/9d8ed5_941f979ed8b849efbec34738f4d86b48~mv2.png");
+        background-image: url("https://static.wixstatic.com/media/9d8ed5_941f979ed8b849efbec34738f4d86b48~mv2.png/v1/fill/w_600,h_740,al_c,q_90,enc_auto/9d8ed5_941f979ed8b849efbec34738f4d86b48~mv2.png");
     }
+
     100% {
-      background-image: url("https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-party-cat-cartoon-png-image_6129662.png");
+        background-image: url("https://png.pngtree.com/png-clipart/20220829/ourmid/pngtree-party-cat-cartoon-png-image_6129662.png");
     }
-  }
+}
 
 .quote__item .desc {
     padding-bottom: 40%;
     max-width: 80%;
     margin: 5rem auto;
     font-size: 1.5rem;
-    color:rgb(234, 0, 255);
+    color: rgb(234, 0, 255);
     line-height: 1.8;
     font-weight: bold;
-    
-    
-    
 }
 
 .quote__item .author {
@@ -771,12 +804,10 @@ li {
 }
 
 .quote__item .author-name {
-    font-family: var(--secondary-font);
     font-size: 1.6rem;
 }
 
 .quote__item .author-name span {
-    font-family: var(--primary-font);
     font-size: 1.2rem;
 }
 
@@ -784,8 +815,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:10%;
-    
+    padding-top: 10%;
 }
 
 .quote__nav li {
@@ -809,6 +839,7 @@ li {
 .team__image {
 
     padding-left: 0;
+
 }
 
 .team__list {
