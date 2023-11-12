@@ -620,7 +620,7 @@ li {
 
 .about__content h3 {
     text-transform: uppercase;
-    color: var(--gray-light);
+    color: blue;
     font-weight: 300;
     font-size: 2rem;
     margin-bottom: 4rem;
